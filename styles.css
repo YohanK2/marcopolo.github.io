@@ -1,0 +1,192 @@
+body {
+    background-color: sandybrown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    color: forestgreen;
+}
+/* Estilos generales del header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Degradado azul */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Logo */
+img {
+    width: 300;
+    height: auto;
+    border: 5px solid rgb(81, 110, 110);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px solid rebeccapurple;
+}
+
+/* Menú */
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo de los enlaces del menú */
+.menu ul li {
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px; /* Bordes redondeados */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efecto Hover */
+.menu ul li a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    transform: scale(1.1); /* Efecto de crecimiento */
+}
+section1 {
+    text-align: left;
+}
+/* Efecto de subrayado animado */
+.menu ul li a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 0;
+    background: white;
+    transition: width 0.3s ease-in-out;
+    margin: auto;
+}
+
+.menu ul li a:hover::after {
+    width: 100%;
+}
+
+div {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+nav {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    padding: 10px 0;
+}
+
+.menu {
+    list-style: none;
+    display: flex; /* Hace que los elementos estén en fila */
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin: 0 15px; /* Espaciado entre elementos */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #641f1f;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: bisque;
+    color: rgb(7, 2, 2);
+    text-align: left;
+    padding: 20px 0;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 10px;
+}
+
+.footer-section {
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 10px;
+    color: rgb(33, 167, 54);
+}
+
+.footer-section a {
+    color: rgb(46, 105, 206);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-section a:hover {
+    color: antiquewhite;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.formulario-container {
+    display: block;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 70vh; /* Ocupa toda la altura de la pantalla */
+}
+
+form {
+    background: none; /* Color de fondo */
+    font-family: 'Times New Roman', Times, serif;
+    padding: none;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar */
+    width: 90%; /* Ancho del formulario */
+    display: flex;
+    flex-direction: column; /* Acomoda los elementos en columna */
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
