@@ -1,3 +1,4 @@
+@media screen and (max-width: 800px) {
 body {
     background-color: sandybrown;
     font-family: Verdana, Geneva, Tahoma, sans-serif
@@ -189,4 +190,5 @@ form button {
 
 form button:hover {
     background: #0056b3;
+}
 }
