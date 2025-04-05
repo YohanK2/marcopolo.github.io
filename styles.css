@@ -1,9 +1,7 @@
-@media screen and (max-width: 800px) {
 body {
     background-color: sandybrown;
     font-family: Verdana, Geneva, Tahoma, sans-serif
-}
-
+    
 h3 {
     text-align: center;
     font-size: 40px;
